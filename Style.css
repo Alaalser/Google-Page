@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    float: right;
+}
+
+.header a, .header button
+{
+    margin: 10px;
+    color: #000;
+
+}
+
+.header button {
+    background-color: dodgerblue;
+    padding: 8px;
+    font-size: 15px;
+    color: #fff;
+    border-radius: 15px;
+    font-weight: bold;
+}
+
+.main{
+    text-align: center;
+}
+
+.logo-img img {
+    width: 290px;
+    height: 130px;
+    margin-top: 10;
+    padding-top: 150px;
+    padding-left: 220px;
+    padding-bottom: 50px;
+
+}
+
+.search-box input {
+    width: 580px;
+    height: 34px;
+    margin: 0px 0px 30px 500px;
+    display: flex;
+    margin-top: -37px;
+    font-size: 16px;
+    border-radius: 20px;
+    padding: 3px;
+}
+
+.btn button {
+    height: 10px;
+    width: 140px;
+    margin: 0px 5px 0px 5px;
+    padding: 10px 0px 20px 0px;
+
+}
+
+.lang  {
+    padding-top: 30px;
+    padding-bottom: 218px;
+}
+
+.footer {
+    padding : 10px 20px 20px 20px;
+    background-color:gainsboro;
+}
+.country{
+    padding-bottom: 20px;
+}
+
+#privacy, #terms, #settings{
+    float: right;
+    padding-left: 10px;
+}
